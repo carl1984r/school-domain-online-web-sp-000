@@ -19,7 +19,6 @@ def add_student(name, grade)
   end
 
   def sort
-  roster.sort
-  roster
+  roster.sort_by {|a,b| a}
   end
 end
