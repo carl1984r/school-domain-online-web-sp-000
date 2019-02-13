@@ -19,6 +19,6 @@ def add_student(name, grade)
   end
 
   def sort
-    roster.sort!
+    roster.sort
   end
 end
