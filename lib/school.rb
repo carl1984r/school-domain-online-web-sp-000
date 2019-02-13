@@ -19,7 +19,7 @@ def add_student(name, grade)
   end
 
   def sort
-    roster.sort.to_h.each_value {|x| x.sort binding.pry}
+    roster.sort.to_h.each_value {|x| x.sort!}
 
   end
 end
